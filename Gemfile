@@ -45,4 +45,8 @@ group :development do
   gem 'spring'
 end
 
+# Users management
 gem 'devise'
+
+# Images management
+gem 'paperclip'
