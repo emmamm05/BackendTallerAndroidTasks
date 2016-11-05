@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161105212342) do
+ActiveRecord::Schema.define(version: 20161105221453) do
 
   create_table "tasks", force: :cascade do |t|
     t.string   "title"
@@ -43,6 +43,9 @@ ActiveRecord::Schema.define(version: 20161105212342) do
     t.integer  "avatar_file_size"
     t.datetime "avatar_updated_at"
     t.string   "authentication_token",   limit: 30
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "phone_number"
   end
 
   add_index "users", ["authentication_token"], name: "index_users_on_authentication_token", unique: true
