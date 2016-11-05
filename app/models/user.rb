@@ -10,4 +10,12 @@ class User < ActiveRecord::Base
                     default_url: "/images/:style/missing.png"
   validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\z/
 
+  def avatar_url
+    "http://" + Rails.configuration.default_host  + self.avatar.url(:original)
+  end
+
+  def as_json(options = {})
+    super options.merge(methods: [:avatar_url])
+  end
+
 end

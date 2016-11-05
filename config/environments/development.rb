@@ -41,4 +41,8 @@ Rails.application.configure do
 
   # Image magick, ref: https://github.com/thoughtbot/paperclip
   Paperclip.options[:command_path] = "/usr/local/bin/"
+
+  config.serve_static_files = true
+
+  config.default_host = "45.55.130.134:3000"
 end
