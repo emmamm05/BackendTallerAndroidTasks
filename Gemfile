@@ -50,3 +50,6 @@ gem 'devise'
 
 # Images management
 gem 'paperclip'
+
+# Token for mobile app
+gem 'simple_token_authentication'
