@@ -13,7 +13,6 @@ class Users::SessionsController < Devise::SessionsController
 
   # DELETE /resource/sign_out
   def destroy
-    super
     respond_to  do |format|
       format.json { render json: {'success':true }, status: :ok }
     end

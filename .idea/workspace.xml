@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd2dd91c-322c-46e0-9fdf-fd7c09f216c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" />
     </list>
     <ignored path="TallerAndroidFabian.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +88,18 @@
       <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -378,7 +387,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="deve&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/environments/development.rb&#10;app&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;db/migrate/20161105221453_add_fields_to_users.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105221453_add_fields_to_users.rb&#10;task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/tasks_controller.rb&#10;App&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;User&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;Gem&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/Gemfile&#10;Task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/task.rb&#10;TaskC&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;route&#9;null&#9;null&#10;add&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105181502_add_image_to_users.rb&#10;Use&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;db/migrate/20161105180622_add_image_to_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180622_add_image_to_tasks.rb&#10;db/migrate/20161105180546_create_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180546_create_tasks.rb" />
+    <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;deve&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/environments/development.rb&#10;app&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;db/migrate/20161105221453_add_fields_to_users.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105221453_add_fields_to_users.rb&#10;task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/tasks_controller.rb&#10;App&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;User&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;Gem&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/Gemfile&#10;Task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/task.rb&#10;TaskC&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;add&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105181502_add_image_to_users.rb&#10;Use&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;db/migrate/20161105180622_add_image_to_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180622_add_image_to_tasks.rb&#10;db/migrate/20161105180546_create_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180546_create_tasks.rb" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RunManager" selected="Rails.Development: TallerAndroidFabian">
@@ -629,12 +638,12 @@
       <workItem from="1478367881210" duration="12405000" />
       <workItem from="1478525023256" duration="5000" />
       <workItem from="1478539310990" duration="10000" />
-      <workItem from="1479672802219" duration="1283000" />
+      <workItem from="1479672802219" duration="1413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13703000" />
+    <option name="totallyTimeSpent" value="13833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
@@ -860,13 +869,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20161105180546_create_tasks.rb" />
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20161105210627_create_tasks.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20161105180622_add_image_to_tasks.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20161105175038_devise_create_users.rb">
@@ -965,10 +967,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
