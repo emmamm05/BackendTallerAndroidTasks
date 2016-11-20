@@ -44,5 +44,5 @@ Rails.application.configure do
 
   config.serve_static_files = true
 
-  config.default_host = "45.55.130.134:3000"
+  config.default_host = "45.55.130.134"
 end
