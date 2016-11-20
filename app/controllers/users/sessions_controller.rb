@@ -15,7 +15,7 @@ class Users::SessionsController < Devise::SessionsController
   def destroy
     super
     respond_to  do |format|
-      format.json { render json: {'success':true } }
+      format.json { render json: {'success':true }, status: :ok }
     end
   end
 

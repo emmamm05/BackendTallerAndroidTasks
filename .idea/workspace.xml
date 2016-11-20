@@ -89,8 +89,8 @@
       <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -629,12 +629,12 @@
       <workItem from="1478367881210" duration="12405000" />
       <workItem from="1478525023256" duration="5000" />
       <workItem from="1478539310990" duration="10000" />
-      <workItem from="1479672802219" duration="1180000" />
+      <workItem from="1479672802219" duration="1283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13600000" />
+    <option name="totallyTimeSpent" value="13703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
@@ -967,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="306">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
           <folding />
         </state>
       </provider>
