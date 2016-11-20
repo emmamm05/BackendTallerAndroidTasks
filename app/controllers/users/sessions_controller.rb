@@ -12,9 +12,12 @@ class Users::SessionsController < Devise::SessionsController
   # end
 
   # DELETE /resource/sign_out
-  # def destroy
-  #   super
-  # end
+  def destroy
+    super
+    respond_to  do |format|
+      format.json { render json: {'success':true } }
+    end
+  end
 
   # protected
 
