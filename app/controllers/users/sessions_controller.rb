@@ -12,11 +12,9 @@ class Users::SessionsController < Devise::SessionsController
   # end
 
   # DELETE /resource/sign_out
-  def destroy
-    respond_to  do |format|
-      format.json { render json: {'success':true }, status: :ok }
-    end
-  end
+  # def destroy
+  #   super
+  # end
 
   # protected
 
@@ -24,4 +22,13 @@ class Users::SessionsController < Devise::SessionsController
   # def configure_sign_in_params
   #   devise_parameter_sanitizer.permit(:sign_in, keys: [:attribute])
   # end
+
+  def respond_to_on_destroy
+    # We actually need to hardcode this as Rails default responder doesn't
+    # support returning empty response on GET request
+    respond_to do |format|
+      format.json { render json: { success: 'true' }, status: :ok }
+    end
+  end
+
 end
