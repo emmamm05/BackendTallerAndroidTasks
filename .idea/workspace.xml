@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd2dd91c-322c-46e0-9fdf-fd7c09f216c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
     </list>
     <ignored path="TallerAndroidFabian.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tasks_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+            <state relative-caret-position="457">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +119,8 @@
       <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="234">
+              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -154,13 +154,13 @@
         <option value="$PROJECT_DIR$/db/migrate/20161105210909_create_tasks.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/tasks/_task.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20161105221453_add_fields_to_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/task.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
       </list>
     </option>
   </component>
@@ -346,6 +346,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -409,6 +413,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TallerAndroidFabian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TallerAndroidFabian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -418,7 +436,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Tas&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/task.rb&#10;user&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;regis&#9;null&#9;null&#10;route&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;deve&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/environments/development.rb&#10;app&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;db/migrate/20161105221453_add_fields_to_users.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105221453_add_fields_to_users.rb&#10;task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/tasks_controller.rb&#10;App&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;User&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;Gem&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/Gemfile&#10;Task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/task.rb&#10;TaskC&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;add&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105181502_add_image_to_users.rb&#10;Use&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;db/migrate/20161105180622_add_image_to_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180622_add_image_to_tasks.rb&#10;db/migrate/20161105180546_create_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180546_create_tasks.rb" />
+    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;Tas&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/task.rb&#10;user&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;regis&#9;null&#9;null&#10;route&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;deve&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/environments/development.rb&#10;app&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;db/migrate/20161105221453_add_fields_to_users.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105221453_add_fields_to_users.rb&#10;task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/tasks_controller.rb&#10;App&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/controllers/application_controller.rb&#10;Gem&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/Gemfile&#10;Task&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/task.rb&#10;TaskC&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/config/routes.rb&#10;add&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105181502_add_image_to_users.rb&#10;Use&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/app/models/user.rb&#10;db/migrate/20161105180622_add_image_to_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180622_add_image_to_tasks.rb&#10;db/migrate/20161105180546_create_tasks.rb&#9;FILE&#9;file:///home/emma/Documents/TallerAndroidFabian/db/migrate/20161105180546_create_tasks.rb" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RunManager" selected="Rails.Development: TallerAndroidFabian">
@@ -669,12 +687,12 @@
       <workItem from="1478367881210" duration="12405000" />
       <workItem from="1478525023256" duration="5000" />
       <workItem from="1478539310990" duration="10000" />
-      <workItem from="1479672802219" duration="2175000" />
+      <workItem from="1479672802219" duration="2567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14595000" />
+    <option name="totallyTimeSpent" value="14987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
@@ -977,14 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/task.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1001,18 +1011,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="457">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users/sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        <state relative-caret-position="234">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
